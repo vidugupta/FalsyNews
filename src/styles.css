@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    /* Landing Page */
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    /* background: url(D:\Projects\Falsy News\falsy_news\src\assets\LandingPage.jpg); */
+    background: url("D:\Projects\FalsyNews\src\assets\Landing Page.png") no-repeat fixed;
+    background-size: cover;
+}
