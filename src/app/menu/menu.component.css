@@ -5,7 +5,7 @@
     width: 283px;
     height: 72px;
     left: 100px;
-    top: 30px;
+    top: 10px;
 
     font-family: Poppins;
     font-style: normal;
@@ -19,8 +19,9 @@ nav div a{
     position: absolute;
     width: 143px;
     height: 48px;
-    left: 1197px;
-    top: 42px;
+    left: 90%;
+    right: 10%;
+    top: 15px;
 
     font-family: Poppins;
     font-style: normal;
@@ -28,6 +29,7 @@ nav div a{
     font-size: 20px;
     line-height: 48px;
     justify-content: right;
+    text-decoration: none;
     /* identical to box height */
 
 
