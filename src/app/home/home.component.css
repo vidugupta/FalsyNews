@@ -1,0 +1,40 @@
+div .img{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: no-repeat fixed;
+    background-size: cover;
+}
+div p:nth-of-type(1){
+    /* FAKE NEWS DETECTION */
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    left: 193px;
+    top: 166px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+div p:nth-of-type(2){
+    position: absolute;
+    width: 487px;
+    height: 176px;
+    left: 100px;
+    top: 220px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
