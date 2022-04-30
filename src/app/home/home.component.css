@@ -38,3 +38,12 @@ div p:nth-of-type(2){
 
     color: #FFFFFF;
 }
+div button{
+    /* Button */
+    position: absolute;
+    width: 430px;
+    height: 60px;
+    left: 128px;
+    top: 450px;
+    border-radius: 50;
+}
