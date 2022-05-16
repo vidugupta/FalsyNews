@@ -1,0 +1,30 @@
+div textarea{
+    /* Text Box */
+
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    left: 270px;
+    top: 185px;
+
+    filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.25));
+}
+div textarea::placeholder{
+    /* Enter your text here..... */
+
+    position: absolute;
+    width: 256px;
+    height: 33px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #ABABAB;
+}
