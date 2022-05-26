@@ -19,6 +19,7 @@ div p:nth-of-type(1){
     font-size: 20px;
     line-height: 38px;
     text-align: center;
+    letter-spacing: 0.2em;
 
     color: #FFFFFF;
 }
@@ -44,6 +45,26 @@ div button{
     width: 430px;
     height: 60px;
     left: 128px;
-    top: 450px;
+    top: 420px;
     border-radius: 50;
+
+    /* Let’s go! */
+
+    /* position: absolute;
+    width: 180px;
+    height: 41px;
+    left: 253px;
+    top: 604px; */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #002651;
+
 }
