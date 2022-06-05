@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  @Output() clicked = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onClick(): void {
+    this.clicked.emit();
+  }
 }
