@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
-      <img src="assets/FalsyNews.svg">
-    </a>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="nav-link active" aria-current="page" href="#">About Us</a>
-    </div>
-    
+  <a class="navbar-brand" href="#">
+    <img src="assets/FalsyNews.svg">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+  </div>
+
 </nav>
-<app-home></app-home>
-<app-check></app-check>
+<app-home (clicked)="showChecked()" *ngIf="!showCheck"></app-home>
+<app-check *ngIf="showCheck"></app-check>
