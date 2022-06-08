@@ -35,6 +35,10 @@ nav div a{
 
     color: #ffffff;
 }
+
+nav div a:hover{
+    color: #28C7FA;
+}
 /* div .img{ */
     /* isolated-portrait-stylish-young-mixed-race-woman-with-dark-shaggy-hair-touching-her-chin-removebg 1 */
     /* position: absolute;

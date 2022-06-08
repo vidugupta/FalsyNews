@@ -1,4 +1,4 @@
-div .img{
+div:nth-of-type(1) .img{
     position: relative;
     width: 1440px;
     height: 1024px;
@@ -46,7 +46,8 @@ div button{
     height: 60px;
     left: 128px;
     top: 420px;
-    border-radius: 50;
+    border-radius: 50px;
+    border: none;
 
     /* Let’s go! */
 
@@ -68,3 +69,8 @@ div button{
     color: #002651;
 
 }
+
+/* div:nth-of-type(2) .img{
+    height: 100px;
+    width: 100px;
+} */

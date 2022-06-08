@@ -6,7 +6,7 @@ div textarea{
     height: 500px;
     left: 270px;
     top: 80px;
-    border-radius: 20 20 20 20;
+    border-radius: 20px;
 
     filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.25));
 }
@@ -56,12 +56,13 @@ div p{
 
 div button{
     /* Check Button */
-
+    border: none;
     position: absolute;
     width: 430px;
     height: 60px;
     left: 505px;
     top: 660px;
+    border-radius: 50px;
 
     /* Let’s go! */
 
