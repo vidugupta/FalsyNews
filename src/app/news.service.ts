@@ -10,7 +10,7 @@ export class NewsService {
   constructor(private http: HttpClient) {}
 
   public postNews(news: string): any {
-    const data = this.http.post<any>('https://falsy-news.siddharthg123.repl.co/', news);
+    const data = this.http.post<any>('https://falsy-news.siddharthg123.repl.co/', {Text:news});
     console.log(data)
     return data;
   } 

@@ -74,9 +74,6 @@
               "browserTarget": "FalsyNews:build:development"
             }
           },
-          "options": {
-            "proxyConfig": "proxy.json"
-          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
