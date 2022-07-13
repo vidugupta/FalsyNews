@@ -1,8 +1,0 @@
-
-{
-    "/*": {
-        "target": "https://falsy-news.siddharthg123.repl.co",
-        "secure": false,
-        "logLevel": "debug"
-    }
-}
