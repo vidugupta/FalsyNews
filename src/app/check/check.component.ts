@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NewsService } from '../news.service';
-import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'app-check',
   templateUrl: './check.component.html',
@@ -8,15 +7,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CheckComponent implements OnInit {
 
-  constructor(public newsService: NewsService) { }
-  news: string = ""
+  constructor() { }
+
   ngOnInit(): void {
-    
   }
 
-  checkNews(): any {
-    this.newsService.postNews(this.news).subscribe((response: any) => {
-      console.log(response)
-    })
-  }
 }
